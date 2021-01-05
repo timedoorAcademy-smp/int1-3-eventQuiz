@@ -7,7 +7,7 @@
     <title>Quiz Project</title> 
 </head> 
 <style>
-    html {
+      html {
         font-family: "Times New Roman", Times, serif;
     }
     h1 {
@@ -41,7 +41,7 @@
         border-style: none;
         border: 2px solid black;
     }
-    #answerform {
+    #optionA, #optionC {
         background-color: #FC6A03;
         color: #fff;
         width: 300px;
@@ -50,7 +50,7 @@
         font-size: 15px;
         border-style: none;
     }
-    #answerform2 {
+    #optionB, #optionD{
         background-color: #FC6A03;
         color: #fff;
         width: 300px;
@@ -98,19 +98,18 @@
     <p> 
         JavaScript can "display" output in the following ways : </p>
     <div>
-        <button  id = "answerform">document.write();</button>
-        <button  id = "answerform2">console.log()</button>
+        <button id = "optionA">A. document.write();</button>
+        <button  id = "optionB">B. console.log()</button>
         <br>
         <br>
-        <button  id = "answerform">HTMLElementObject.innerHTML = text</button>
-        <button  id = "answerform2">
-            all answers are correct</button>
+        <button id = "optionC">C. HTMLElementObject.innerHTML = text</button>
+        <button  id = "optionD">D. All answers are correct</button>
     </div>
 
     <br>
     <p id="result2"></p>
 
-    <button onclick="finish()" id="submit">SUBMIT</button>
+    <button id="submit">SUBMIT</button>
     <br>
 
     <h1 id="res"></h1>

@@ -1,0 +1,122 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz Project</title> 
+</head> 
+<style>
+    html {
+        font-family: "Times New Roman", Times, serif;
+    }
+    h1 {
+        background-color: #FF781F ;
+        color: #fff;
+        text-align: center;
+        width: 750px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    h2 {
+        background-color: #FDA172 ;
+        color: #fff;
+        text-align: left;
+        width: 750px;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    p {
+        font-size: 20px;
+        width: 100%;
+        text-align: justify;
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+    body {
+        width: 100%;
+        max-width: 750px;
+        min-width: 480px;
+        margin: 0 auto; 
+        border-style: none;
+        border: 2px solid black;
+    }
+    #answerform {
+        background-color: #FC6A03;
+        color: #fff;
+        width: 300px;
+        height: 30px;
+        border-radius: 15px;
+        font-size: 15px;
+        border-style: none;
+    }
+    #answerform2 {
+        background-color: #FC6A03;
+        color: #fff;
+        width: 300px;
+        height: 30px;
+        border-radius: 15px;
+        font-size: 15px;
+        border-style: none;
+        margin-left: 145px;
+    }
+    #submit {
+        background-color: #B56727;
+        color: #fff;
+        width: 750px;
+        height: 30px;
+        border-radius: 15px;
+        font-size: 15px;
+        border-style: none;
+        text-align: center;
+    }
+    #guessField {
+        color: #000;
+        width: 250px;
+        height: 30px;
+        font-size: 15px;
+        border-style: none;
+        border: 5px solid #B56727;
+        text-align: center;
+    }
+</style>
+
+<body>
+    <h1>Quiz Time</h1>
+    <h2>Number 1</h2>
+    <p> HTML tag that can be used in HTML to break the line : <br>
+        A. br <br>
+        B. body <br>
+        C. html<br>
+        D. script<br>
+    <input type="text" id="guessField" class="guessField" placeholder="Type your answer">
+
+    <br>
+    <p id="result"></p>
+
+    <h2>Number 2</h2>
+    <p> 
+        JavaScript can "display" output in the following ways : </p>
+    <div>
+        <button  id = "answerform">document.write();</button>
+        <button  id = "answerform2">console.log()</button>
+        <br>
+        <br>
+        <button  id = "answerform">HTMLElementObject.innerHTML = text</button>
+        <button  id = "answerform2">
+            all answers are correct</button>
+    </div>
+
+    <br>
+    <p id="result2"></p>
+
+    <button onclick="finish()" id="submit">SUBMIT</button>
+    <br>
+
+    <h1 id="res"></h1>
+</body>
+
+<script>
+</script>
+
+</html>
